@@ -21,7 +21,7 @@ See `docker-compose.yml` for more about the port mappings
 Use [IPM / ZPM](https://github.com/intersystems/ipm) to install the Waveform processor package. It only needs to be installed in one namespace, from where it can generate documentation for any namespace. Choose an interop-enabled namespace if you want to document any interop applications. We suggest picking the USER namespace:
 
 ```Shell
-USER>zpm install "hfd-main"
+USER>zpm "install hfd-main"
 ```
 
 
