@@ -1,0 +1,18 @@
+﻿DeviceType,Device,Manufacturer,Category,SubCategory
+DragerMedibus_5.2.20.8_Apollo [MEDIBUS.X]_Dräger,Drager Apollo,Drager,Anesthesia,Anesthesia/Ventilator Machine
+SpectrumB_5.2.0.6_Quantum Workstation_Spectrum Medical,The Quantum Workstation,Quantum,Perfusion/Bypass,Perfusion Controller
+MasimoD_5.3.4.6_Root_Masimo,Masimo Root Platform,Masimo,Monitor,Patient Monitoring and Connectivity Platform
+DragerMedibus_5.3.23.8_Atlan_Dräger,Drager Atlan,Drager,Anesthesia,Anesthesia/Ventilator Machine
+DatexA_5.3.20.34_CARESCAPE B650_Datex,GE Carescape B650,GE,Monitor,Patient Monitoring System
+DragerMedibus_5.2.20.8_Fabius Tiro [MEDIBUS.X]_Dräger,Drager Fabius Tiro,Drager,Anesthesia,Anesthesia/Ventilator Machine
+MarquetteA5_5.0.8.3_Solar 8000M_GE,GE/Marquette Solar 8000,GE,Monitor,Patient Monitoring System
+IDMedA_5.0.3.8_TofScan_iDMed,IDMed TofScan,idmed,Monitor,Neuromuscular Transmission Monitor
+MarquetteA5_5.3.9.11_Dash 4000_GE,GE/Marquette Dash 4000,GE,Monitor,Patient Monitoring System
+InvivoB_5.1.7.6_MR Patient Care Portal 5000_Invivo,Invivo MR Patient Care Portal 5000,Philips,Connectivity,Remote Monitoring Workstation/Dashboard
+DragerMedibus_5.3.23.8_Fabius MRI [MEDIBUS.X]_Dräger,Drager Fabius MRI,Drager,Anesthesia,Anesthesia/Ventilator Machine
+DatexA_5.3.20.34_CARESCAPE B450_Datex,Datex Carescape B450,GE,Monitor,Patient Monitoring System
+DatexA_5.3.20.34_S/5 with ADU_Datex,Datex S/5 with ADU,GE,Anesthesia,Anesthesia/Ventilator Machine
+FreseniusF_5.2.4.15_Fresenius2008T_Fresenius Kabi,Fresenius Fresenius2008T,Fresenius,Dialysis,Hemodialysis Machine
+DatexA_5.2.19.12_CARESCAPE B850_Datex,Datex Carescape B850,GE,Monitor,Patient Monitor
+MaquetF_5.3.3.5_Cardiohelp_Maquet,Maquet Cardiohelp,Getinge,Perfusion/Bypass,Cardiopulmonary Bypass System
+MarquetteA5_5.3.9.11_Dash 5000_GE,Marquette Dash 5000,GE,Monitor,Portable Patient Monitoring System

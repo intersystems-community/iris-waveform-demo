@@ -1,0 +1,30 @@
+services:
+  iris:
+    build:
+      context: .
+    restart: always
+    hostname: iris
+    ports:
+      - 9901:1972
+      - 9991:52773
+    volumes:
+      - ./:/home/irisowner/dev/
+
+  driver:
+    build:
+      context: ./driver/
+    restart: always
+    hostname: driver
+    ports:
+      - 9902:1972
+      - 9992:52773
+    volumes:
+      - ./driver/:/home/irisowner/dev/
+
+  jupyter:
+    build: 
+      context: ./jupyter/
+    restart: always
+    hostname: jupyter
+    ports:
+      - 9993:8888

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="hfd-main.ZPM">
+    <Module>
+      <Name>hfd-main</Name>
+      <Description>Main application for waveform data</Description>
+      <Version>0.1.0</Version>
+      <Packaging>module</Packaging>
+      <SourcesRoot>src</SourcesRoot>
+      <Resource Name="HFD.PKG" Directory="cls" />
+      <SystemRequirements Version=">=2020.1" Interoperability="enabled" Health="true" />
+      <Invoke Class="Ens.Director" Method="SetAutoStart">
+         <Arg>HFD.Production</Arg>
+         <Arg>0</Arg>
+      </Invoke>
+      <Invoke Class="%SYSTEM.SQL" Method="Execute">
+         <Arg>CREATE TABLE IF NOT EXISTS HFD_Data.DeviceInfo (DeviceType VARCHAR(100), Device VARCHAR(100), Manufacturer VARCHAR(50), Category VARCHAR(50), SubCategory VARCHAR(100))</Arg>
+      </Invoke>
+      <Invoke Class="%SYSTEM.SQL" Method="Execute">
+         <Arg>TRUNCATE TABLE HFD_Data.DeviceInfo</Arg>
+      </Invoke>
+      <Invoke Class="%SYSTEM.SQL" Method="Execute">
+         <Arg>LOAD DATA FROM FILE '#{..Root}/resources/DeviceTypes.csv' INTO HFD_Data.DeviceInfo USING {""from"":{""file"":{""header"":true}}}</Arg>
+      </Invoke>
+    </Module>
+  </Document>
+</Export>
