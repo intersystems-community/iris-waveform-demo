@@ -240,7 +240,7 @@ XData DTL [ XMLNamespace = "http://www.intersystems.com/dtl" ]
 	</foreach>
 	<code>
 	<![CDATA[ 
-		if $d(locked) { lock -^M3.Series.V($lg(locked),$lg(locked,2),$lg(locked,3)) }
+		if $d(locked) { lock -^HFD.Series.V($lg(locked),$lg(locked,2),$lg(locked,3)) }
 		;Set ^IRIS.Temp.Hl7Log("hl7","ztime")=$ZHorolog
 		Set ^IRIS.Temp.Hl7Log("hl7",$ZD(+$H,8),pos,"end")=$ZHorolog	
 	]]></code>
